@@ -13,10 +13,10 @@ export default function Home() {
       <main class="mb-24">
         <div class="text-center pt-24 pb-16">
           <h1 class="">What is this Brand Thing Anyway?</h1>
-          <h2 class="font-normal mt-0">A primer on brand for product teams</h2>
+          <h2 class="font-normal mt-0 text-gray-600">A primer on brand for product teams</h2>
         </div>
         <div class="w-content mx-auto">
-          <div className="bg-yellow-100 rounded-md mt-4 mb-4 p-4">
+          <div className="bg-yellow-200 rounded-md mt-4 mb-4 p-4">
             <p className="mt-0 text-yellow-900">There's gonna be a story to kick this off eh?</p>
           </div>
 
@@ -31,8 +31,8 @@ export default function Home() {
           <p>Better understanding the Brand Thing will make it easier to:</p>
 	        
           <ul>
-            <li><strong>Have conversations</strong> about brand from a shared vocabulary and a shared conceptual understanding of <em>what brand is</em>.</li>
-	          <li><strong>Make decisions</strong> based on a shared understanding of <em>what the product’s brand is</em>.</li>
+            <li><strong>Have conversations</strong> about brand from a shared vocabulary and a shared conceptual understanding of what brand is.</li>
+	          <li><strong>Make decisions</strong> based on a shared understanding of what the product’s brand is.</li>
 	          <li><strong>Reduce ambiguity and subjectivity</strong> in conversations related to brand.</li>
 	          <li><strong>Create consistency</strong> across a product and all of its touchpoints.</li>
 	          <li><strong>Make onboarding easier</strong> for new members of the team.</li>
@@ -48,9 +48,9 @@ export default function Home() {
           
           <p>Brand is how others perceive your product or company. It’s inherently abstract, emotional, and jumbles together a bunch of things: the whole of their experience with your product or company, their interactions with you, what they hear about you in the media, how others describe you, and how they feel when you magically solve that thing they’ve been wasting ten hours on every week. Then it’s mingled with their own experiences and beliefs and worldview and that outcome is your brand, as far as that person is concerned.</p>
           
-          <p>While we can’t “do the brand,” we <em>can</em> articulate what we want the brand to be. This is the <strong>brand platform</strong>.</p>
+          <p>While we can’t “do the brand,” we <strong>can</strong> articulate what we want the brand to be. This is the <strong>brand platform</strong>.</p>
           
-          <p>“Branding” is the act of creating a good brand platform and finding how people are, or end up, perceiving it.</p>
+          <p>“Branding” is the act of creating the brand platform and doing research to find out how people perceive it.</p>
           
           <p>The better we articulate our brand platform, the more likely it is that others will perceive the brand the way we want it to be perceived.</p>
 
@@ -72,63 +72,154 @@ export default function Home() {
           <AnchoredHeading level="3" content="Brand strategy" />
 
           <p>Brand strategy includes the topics like:</p>
-
-          <AnchoredHeading level="4" content="Positioning" />
-
-          <p>Positioning is a strategic approach to defining what your product is, who it’s for, and how you’re distinct from your competitors.</p>
-
-          <p>A positioning statement is one or two sentences that’s cruelly hard to write, but when the dust settles, captures what your product is very simply and within a broader context.</p>
-
-          <p>The exact structure of a positioning statement changes from company to company, but the bones are the same.</p>
-
-          <div className="bg-gray-100 rounded-md mt-4 mb-4 p-4 -ml-4 -mr-4">
-            <p className="mt-0 leading-relaxed">For <span className="bg-yellow-300">(target customer)</span> who <span className="bg-yellow-300">(statement of need)</span>, <span className="bg-yellow-300">(product)</span> is a <span className="bg-yellow-300">(product category)</span> that <span className="bg-yellow-300">(statement of key benefit)</span>. Unlike <span className="bg-yellow-300">(alternative product or solution)</span>, <span className="bg-yellow-300">(product)</span> <span className="bg-yellow-300">(statement of primary differentiation)</span>.</p>
-          </div>
           
-          <p>When you’re at the point of creating a positioning statement, you probably already have a product or you’ve got something in the works. Creating (and iterating on) a positioning statement at the same time will help you make product decisions that make your product more purposeful.</p>
+          <AnchoredHeading level="4" content="Vision and mission" />
+          
+          <p>Vision statements and mission statements are both ways of articulating what the product or company is from a high-level, compelling, and action-driving point of view. They’re also weirdly complicated to write and easy to conflate and that’s why I’m explaining them together in one place.</p>
 
-          <p>One other thing: it’s important to keep in mind that a positioning statement is for <em>you</em>. You’re not going to stick it on your landing page and wave it in front of your customers. It’s a way to make sure that you clearly understand yourself, and then you can use that to guide everything else.</p>
+          <p>Now look.</p>
 
-          <Accordion lead="Dig deeper">
+          <p>Your <strong>vision</strong> is an optimistic and inspiring call to action for the <strong>future</strong>. It reflects how the world will be changed for the better because of you.</p>
+
+          <p>Your <strong>mission</strong> is a statement of what you’re doing <strong>now</strong> to reach your vision.</p>
+
+          <p>While your vision is aspirational, your mission is tangible.</p>
+                   
+          <div className="rounded-md mt-8 mb-8 p-4 -ml-4 -mr-4 border-4 border-solid border-blue-200">
+            <p className="text-sm text-gray-600 mt-0">Wikimedia’s <a href="https://wikimediafoundation.org/about/vision/" target="_blank">vision</a> and <a href="https://wikimediafoundation.org/about/mission/" target="_blank">mission</a></p>
+            <p className="leading-relaxed text-lg"><strong>Vision:</strong> Imagine a world in which every single human being can freely share in the sum of all knowledge. That’s our commitment.</p>
+            <p className="leading-relaxed text-lg"><strong>Mission:</strong> The mission of the Wikimedia Foundation is to empower and engage people around the world to collect and develop educational content under a free license or in the public domain, and to disseminate it effectively and globally.</p>
+          </div>
+
+          <Accordion lead="Dig deeper into vision and mission statements">
+
+          <AnchoredHeading level="5" content="Writing vision and mission statements" />
             
-            <AnchoredHeading level="5" content="Examples" />
-            
-            <p>Example</p>
-            <p>Example</p>
-            <p>Example</p>
+            <p>There’s no simple template for vision and mission statements, but check out what other companies have written and create your own along those lines. If it’s more than one or two sentences, it’s probably trying to do too much.</p>
+
+            <AnchoredHeading level="5" content="More examples" />
+
+            <div className="rounded-md mt-4 mb-4 p-4 border-4 border-solid border-blue-200">
+              <p className="text-sm text-gray-600 mt-0">Wikimedia’s <a href="https://wikimediafoundation.org/about/vision/" target="_blank">vision</a> and <a href="https://wikimediafoundation.org/about/mission/" target="_blank">mission</a></p>
+              <p className="leading-relaxed text-lg"><strong>Vision:</strong> Imagine a world in which every single human being can freely share in the sum of all knowledge. That’s our commitment.</p>
+              <p className="leading-relaxed text-lg"><strong>Mission:</strong> The mission of the Wikimedia Foundation is to empower and engage people around the world to collect and develop educational content under a free license or in the public domain, and to disseminate it effectively and globally.</p>
+            </div>
+
+            <p>A mission statement can also be replaced with a Big Hairy Audacious Goal.</p>
 
             <AnchoredHeading level="5" content="Resources" />
 
             <ul>
-              <li>Positioning: The Battle for your Mind</li>
-              <li>Firstround link</li>
+              <li>
+                <a>Link!</a>
+              </li>
+            </ul>
+
+          </Accordion>
+
+          <AnchoredHeading level="4" content="Big Hairy Audacious Goal" />
+          
+          <p>A Big Hairy Audacious Goal is a compelling, long-term goal that lights a fire under the team. It’s big and intimidating and looks 5–10 years into the future.</p>
+
+          <p>Unlike samey-sounding corporate mission statements, Big Hairy Audacious Goals can be inspiring not only for your product team, but for your customers, which means it can do a lot of work to support the brand.</p>
+
+          <p>Here’s a real hairy, real big goal from SpaceX:</p>
+
+          <div className="rounded-md mt-8 mb-8 p-4 -ml-4 -mr-4 border-4 border-solid border-blue-200">
+            <p className="text-sm text-gray-600 mt-0">SpaceX</p>
+            <p className="leading-relaxed text-lg">Enable human exploration and settlement of Mars.</p>
+          </div>
+
+          <p>A brand doesn’t need a Big Hairy Audacious Goal, but it can add a level of impact that isn’t always going to come across in a mission statement.</p>
+
+          <Accordion lead="Dig deeper into Big Hairy Audacious Goals">
+            
+          <AnchoredHeading level="5" content="Writing a Big Hairy Audacious Goal" />
+
+            <p>A good Big Hairy Audacious Goal is a bit scary. It might be that you don’t actually accomplish it. That’s okay! The sheer commitment and effort your team puts in towards achieving it will make your product and team better.</p>
+
+            <p>A Big Hairy Audacious Goal also has to be measurable. There has to be a very obvious finish line that you’re working towards.</p>
+
+            <p>There’s four types of Big Hair Audacious Goals: target-oriented, competitive, role model, or internal transformation.</p>
+
+            <AnchoredHeading level="5" content="Examples" />
+
+            <ul>
+              <li>
+                <strong>Target-oriented:</strong> Become the dominant player in commercial aircraft and bring the world into the jet age. (Boeing, 1950)
+              </li>
+				      <li>
+                <strong>Competitive:</strong> Crush Adidas. (Nike, 1960s)
+				      </li>
+              <li>
+                <strong>Role model:</strong> Become the Nike of the cycling industry (Giro, 1986)
+              </li>
+              <li>
+				        <strong>Internal transformation:</strong> Transform this company from a chemical manufacturer into one of the pre-eminent drug-making companies in the world. (Merch, 1930s)
+              </li>
+            </ul>
+
+            <AnchoredHeading level="5" content="Resources" />
+
+            <ul>
+              <li>
+                <a>Link!</a>
+              </li>
+            </ul>
+
+          </Accordion>
+
+          <AnchoredHeading level="4" content="Positioning" />
+
+          <p>Positioning is how your customers think about your brand in relation to your competitors and the alternatives.</p>
+
+          <p>Mission statements and vision statements and Big Hairy Audacious Goals are what the brand does. But positioning helps define what it is about a brand does that the competitors aren’t.</p>
+
+          <p>Sometimes positioning is articulated in positioning statements—one or two sentences that are curelly hard to write—and other times it’s conveyed through manifestos or slogans or memos.</p>
+          
+          <Accordion lead="Dig deeper into positioning">
+            
+            <AnchoredHeading level="5" content="Ways of positioning" />
+
+            <p>There’re quite a few different approaches to positioning. A brand might use one or many of these approaches to position themselves relative to their competition.</p>
+
+            <p>Here’s some examples directly from <a href="https://en.wikipedia.org/wiki/Positioning_(marketing)#strategies" target="_blank">Wikipedia</a>:</p>
+
+            <ul>
+              <li><strong>Preemptive:</strong> Smith’s Chips—the original and still the best.</li>
+              <li><strong>Within a category:</strong> Volvo is the safest choice in the prestige car category.</li>
+              <li><strong>Price or premium:</strong> Apple products are premium quality for premium prices.</li>
+            </ul>
+
+            <AnchoredHeading level="5" content="Writing positioning statements" />
+            
+            <p>Positioning statements help take abstract thoughts about positioning and make them tangible. The exact structure of a positioning statement changes from company to company, but the bones are the same.</p>
+
+            <div className="bg-white rounded-md mt-4 mb-4 p-4">
+              <p className="mt-0 leading-relaxed text-lg">For <span className="bg-yellow-200">(target customer)</span> who <span className="bg-yellow-200">(statement of need)</span>, <span className="bg-yellow-200">(product)</span> is a <span className="bg-yellow-200">(product category)</span> that <span className="bg-yellow-200">(statement of key benefit)</span>. Unlike <span className="bg-yellow-200">(alternative product or solution)</span>, <span className="bg-yellow-200">(product)</span> <span className="bg-yellow-200">(statement of primary differentiation)</span>.</p>
+            </div>
+
+            Here’s Amazon’s positioning statement from back in 2001:
+
+            <div className="rounded-md mt-4 mb-4 p-4 border-4 border-solid border-blue-200">
+              <p className="text-sm text-gray-600 mt-0">Amazon, literally two decades ago</p>
+              <p className="leading-relaxed text-lg">For World Wide Web users who enjoy books, Amazon.com is a retail bookseller that provides instant access to over 1.1 million books. Unlike traditional book retailers, Amazon.com provides a combination of extraordinary convenience, low prices, and comprehensive selection.</p>
+            </div>
+
+            <p>Positioning statements like these are hard to write and awkward to read. Keep in mind that it’s for <strong>you</strong>. You’re not going to stick it on your landing page and wave it in front of your customers.</p>
+
+            <AnchoredHeading level="5" content="Resources" />
+
+            <ul>
+              <li><a>Positioning: The Battle for your Mind</a></li>
+              <li><a>Firstround link</a></li>
             </ul>
             
           </Accordion>
           
-          <AnchoredHeading level="4" content="Vision" />
-          
-          <div className="bg-yellow-100 rounded-md mt-4 mb-4 p-4">
-            <p className="mt-0 text-yellow-900">Look I gotta do this section still</p>
-          </div>
-
-          <Accordion lead="How to articulate your vision">
-            <p>content!</p>
-          </Accordion>
-
-          <AnchoredHeading level="4" content="Mission" />
-          
-          <div className="bg-yellow-100 rounded-md mt-4 mb-4 p-4">
-            <p className="mt-0 text-yellow-900">Look I gotta do this section still</p>
-          </div>
-
-          <Accordion lead="How to articulate your mission">
-            <p>content!</p>
-          </Accordion>
-          
           <AnchoredHeading level="4" content="Promise" />
           
-          <div className="bg-yellow-100 rounded-md mt-4 mb-4 p-4">
+          <div className="bg-yellow-200 rounded-md mt-4 mb-4 p-4">
             <p className="mt-0 text-yellow-900">Look I gotta do this section still</p>
           </div>
 
@@ -150,7 +241,7 @@ export default function Home() {
 
           <AnchoredHeading level="4" content="Values and principles" />
 
-          <div className="bg-yellow-100 rounded-md mt-4 mb-4 p-4">
+          <div className="bg-yellow-200 rounded-md mt-4 mb-4 p-4">
             <p className="mt-0 text-yellow-900">Look I gotta do this section still</p>
           </div>
 
@@ -160,7 +251,7 @@ export default function Home() {
           
           <AnchoredHeading level="4" content="Brand character and personality" />
           
-          <div className="bg-yellow-100 rounded-md mt-4 mb-4 p-4">
+          <div className="bg-yellow-200 rounded-md mt-4 mb-4 p-4">
             <p className="mt-0 text-yellow-900">Look I gotta do this section still</p>
           </div>
 
@@ -170,7 +261,7 @@ export default function Home() {
           
           <AnchoredHeading level="4" content="Name" />
           
-          <div className="bg-yellow-100 rounded-md mt-4 mb-4 p-4">
+          <div className="bg-yellow-200 rounded-md mt-4 mb-4 p-4">
             <p className="mt-0 text-yellow-900">Look I gotta do this section still</p>
           </div>
           
@@ -296,9 +387,9 @@ export default function Home() {
 
           <p>Nope!</p>
           
-          <p>Sure, it’s easier to make decisions about the logo and UI design system if you already have these. But just because you didn’t do this work first, doesn’t mean that you <em>don’t have</em> a brand character and personality, or vision or mission or positioning. These things exist whether or not you defined them explicitly.</p>
+          <p>Sure, it’s easier to make decisions about the logo and UI design system if you already have these. But just because you didn’t do this work first, doesn’t mean that you <strong>don’t have</strong> a brand character and personality, or vision or mission or positioning. These things exist whether or not you defined them explicitly.</p>
           
-          <p>The logo and UI design system has inherent attributes that reflect your brand. There was probably a lot of “it doesn’t feel like <em>us</em>” or “it doesn’t feel right somehow” in the decision-making process.</p>
+          <p>The logo and UI design system has inherent attributes that reflect your brand. There was probably a lot of “it doesn’t feel like <strong>us</strong>” or “it doesn’t feel right somehow” in the decision-making process.</p>
           
           <p>The tricky part is the future: making decisions about what is or isn’t “the brand,” keeping consistency, helping new team members understand the brand.</p>
           
@@ -308,7 +399,7 @@ export default function Home() {
         
           <p>Smaller companies and particularly individuals are often great at understanding their own brand strategy and identity, even if they haven’t formally articulated it. That’s fine! </p>
           
-          <p>But it’s still worthwhile to articulate the whole brand platform. It’ll make you reflect on things in deeply uncomfortable and frustrating ways and I bet you’ll come out of it with a clearer understanding of your product’s values, your vision, how you’re positioning yourself against your competition, and what aspects of your brand identity most make you <em>you</em>.</p>
+          <p>But it’s still worthwhile to articulate the whole brand platform. It’ll make you reflect on things in deeply uncomfortable and frustrating ways and I bet you’ll come out of it with a clearer understanding of your product’s values, your vision, how you’re positioning yourself against your competition, and what aspects of your brand identity most make you <strong>you</strong>.</p>
         
           <AnchoredHeading level="3" content="Wait a moment, XYZ doesn’t do it like this" />
         

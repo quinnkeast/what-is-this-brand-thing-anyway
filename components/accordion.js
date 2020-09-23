@@ -15,8 +15,8 @@ class Accordion extends React.Component {
   }
 
   render() {
-    return <div className="mb-8 mt-4">
-      <a className="leading-4" href="#" onClick={this.toggleVisibility}>{this.props.lead} 
+    return <div className="mb-12 mt-8">
+      <a className={``} href="#" onClick={this.toggleVisibility}>{this.props.lead} 
         <span className="caret inline-block w-5 ml-1 absolute">
           {this.state.visible ? 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -29,7 +29,7 @@ class Accordion extends React.Component {
           }
         </span>
       </a>
-      <div className={`${this.state.visible ? "visible" : "hidden"} mt-6 pl-6 -ml-6 border-l-2`}>
+      <div className={`${this.state.visible ? "visible" : "hidden"} mt-8 pl-6 pr-6 pb-6 pt-2 -ml-6 -mr-6 bg-gray-100 rounded-md`}>
         {this.props.children}
       </div>
     </div>;

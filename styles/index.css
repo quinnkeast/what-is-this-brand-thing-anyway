@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  @apply text-2xl font-bold text-gray-900 mt-12;
+  @apply text-2xl font-bold text-gray-900 mt-16;
   letter-spacing: -.5px;
 }
 
@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  @apply text-xl font-bold text-gray-900 mt-8;
+  @apply text-xl font-bold text-gray-900 mt-12;
 }
 
 h4 {
