@@ -1,3 +1,109 @@
 @tailwind base;
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "GT Walsheim", Times, sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  @apply text-4xl font-bold text-gray-900;
+  font-weight: 600;
+  letter-spacing: -.75px;
+}
+
+h2 {
+  @apply text-2xl font-bold text-gray-900 mt-12;
+  letter-spacing: -.5px;
+}
+
+.anchor {
+  position: relative;
+}
+
+.anchor:before {
+  @apply text-base font-normal text-gray-100;
+  content: "#";
+  position: absolute;
+  left: -1.5rem;
+}
+
+.anchor:hover:before {
+  @apply text-blue-600;
+}
+
+h3 {
+  @apply text-xl font-bold text-gray-900 mt-8;
+}
+
+h4 {
+  @apply text-lg font-bold text-gray-900 mt-8;
+}
+
+h5 {
+  @apply text-base font-bold text-gray-900 mt-4;
+}
+
+p {
+  @apply text-base text-gray-800 mt-4;
+  letter-spacing: -.25px;
+}
+
+ol {
+  @apply mt-4 list-decimal list-inside;
+}
+
+ol li {
+  @apply text-gray-800 pt-4;
+}
+
+ol li:first-of-type {
+  @apply pt-0;
+}
+
+ul {
+  @apply mt-4 list-disc list-outside;
+}
+
+ul li {
+  @apply text-gray-800 pt-4 pl-1 ml-4;
+}
+
+ul li::marker{
+
+}
+
+ul li:first-of-type {
+  @apply pt-0;
+}
+
+ul li ul {
+  @apply mt-0;
+}
+
+a {
+  @apply text-blue-600;
+}
+
+:focus {
+  outline: 0;
+  @apply shadow-outline;
+}
+
+blockquote {
+  @apply bg-purple-100 rounded-lg pt-2 pl-6 pr-6 pb-6;
+}
+
+blockquote p, blockquote li {
+  @apply text-purple-900;
+}
+
+.caret {
+  margin-top: 3px;
+}
+
 @tailwind components;
 @tailwind utilities;
