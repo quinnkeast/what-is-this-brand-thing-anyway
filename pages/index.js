@@ -6,8 +6,9 @@ export default function Home() {
   return (
     <div className="container mx-auto">
       <Head>
-        <title>Create Next App</title>
+        <title>What is this Brand Thing Anyway?</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://use.typekit.net/wqn2zls.css"></link>
       </Head>
 
       <main class="mb-24">
@@ -16,8 +17,8 @@ export default function Home() {
           <h2 class="font-normal mt-0 text-gray-600">A primer on brand for product teams</h2>
         </div>
         <div class="w-content mx-auto">
-          <div className="bg-yellow-200 rounded-md mt-4 mb-4 p-4">
-            <p className="mt-0 text-yellow-900">There's gonna be a story to kick this off eh?</p>
+          <div className="bg-yellow-200 rounded-md mt-4 p-4">
+            <p className="mt-0 text-sm text-yellow-900">There's gonna be a story to kick this off eh?</p>
           </div>
 
           <AnchoredHeading level="2" content="The Challenge" />
@@ -40,7 +41,7 @@ export default function Home() {
           
           <p>This primer is high-level but includes deeper dives in context for readers who want to get into the nitty-gritty.</p>
 
-          <AnchoredHeading level="2" content="The concepts" />
+          <AnchoredHeading level="2" content="The things you need to know" />
           
           <AnchoredHeading level="3" content="Brand" />
           
@@ -65,14 +66,24 @@ export default function Home() {
             Brand stewardship
           </pre>
           
-          <p>Brand strategy shapes brand identity, which shapes brand expression.</p>
+          <p>Let’s take a look at each.</p>
 
-          <p>Brand stewardship is separate but just as crucial.</p>
+          <AnchoredHeading level="3" content="1. Brand strategy" />
 
-          <AnchoredHeading level="3" content="Brand strategy" />
+          <p>Brand strategy includes things like:</p>
 
-          <p>Brand strategy includes the topics like:</p>
-          
+          <ul>
+            <li><a href="#vision-and-mission">Vision and mission</a></li>
+            <li><a href="#big-hairy-audacious-goal">Big Hairy Audacious Goal</a></li>
+            <li><a href="#positioning">Positioning</a></li>
+          </ul>
+
+          <p>Together, these share a common purpose of defining what the company is in itself and how it’s positioned in the broader marketplace.</p>
+
+	        <p>These rarely change, and when they do, it has to be for a really good reason, because it reflects that the company has changed in a really deep and fundamental way.</p>
+	        
+          <p>If a company is defined by a single product, pivoting to achieve product-market fit will almost always result in changes. </p>
+	                  
           <AnchoredHeading level="4" content="Vision and mission" />
           
           <p>Vision statements and mission statements are both ways of articulating what the product or company is from a high-level, compelling, and action-driving point of view. They’re also weirdly complicated to write and easy to conflate and that’s why I’m explaining them together in one place.</p>
@@ -85,7 +96,7 @@ export default function Home() {
 
           <p>While your vision is aspirational, your mission is tangible.</p>
                    
-          <div className="rounded-md mt-8 mb-8 p-4 -ml-4 -mr-4 border-4 border-solid border-blue-200">
+          <div className="rounded-md mt-8 mb-8 p-6 -ml-6 -mr-6 border-4 border-solid border-blue-200">
             <p className="text-sm text-gray-600 mt-0">Wikimedia’s <a href="https://wikimediafoundation.org/about/vision/" target="_blank">vision</a> and <a href="https://wikimediafoundation.org/about/mission/" target="_blank">mission</a></p>
             <p className="leading-relaxed text-lg"><strong>Vision:</strong> Imagine a world in which every single human being can freely share in the sum of all knowledge. That’s our commitment.</p>
             <p className="leading-relaxed text-lg"><strong>Mission:</strong> The mission of the Wikimedia Foundation is to empower and engage people around the world to collect and develop educational content under a free license or in the public domain, and to disseminate it effectively and globally.</p>
@@ -99,10 +110,16 @@ export default function Home() {
 
             <AnchoredHeading level="5" content="More examples" />
 
-            <div className="rounded-md mt-4 mb-4 p-4 border-4 border-solid border-blue-200">
-              <p className="text-sm text-gray-600 mt-0">Wikimedia’s <a href="https://wikimediafoundation.org/about/vision/" target="_blank">vision</a> and <a href="https://wikimediafoundation.org/about/mission/" target="_blank">mission</a></p>
-              <p className="leading-relaxed text-lg"><strong>Vision:</strong> Imagine a world in which every single human being can freely share in the sum of all knowledge. That’s our commitment.</p>
-              <p className="leading-relaxed text-lg"><strong>Mission:</strong> The mission of the Wikimedia Foundation is to empower and engage people around the world to collect and develop educational content under a free license or in the public domain, and to disseminate it effectively and globally.</p>
+            <div className="rounded-md mt-4 mb-4 p-6 bg-white">
+              <p className="text-sm text-gray-600 mt-0">Coinbase</p>
+              <p className="leading-relaxed"><strong>Vision:</strong> Digital currency will bring about more innovation, efficiency, and equality of opportunity in the world by creating an open financial system.</p>
+              <p className="leading-relaxed"><strong>Mission:</strong> Create an open financial system for the world.</p>
+            </div>
+
+            <div className="rounded-md mt-4 mb-4 p-6 bg-white">
+              <p className="text-sm text-gray-600 mt-0">Mozilla Firefox</p>
+              <p className="leading-relaxed"><strong>Vision:</strong> Building a better internet.</p>
+              <p className="leading-relaxed"><strong>Mission:</strong> Our mission is to ensure the Internet is a global public resource, open and accessible to all.</p>
             </div>
 
             <p>A mission statement can also be replaced with a Big Hairy Audacious Goal.</p>
@@ -125,7 +142,7 @@ export default function Home() {
 
           <p>Here’s a real hairy, real big goal from SpaceX:</p>
 
-          <div className="rounded-md mt-8 mb-8 p-4 -ml-4 -mr-4 border-4 border-solid border-blue-200">
+          <div className="rounded-md mt-8 mb-8 p-6 -ml-4 -mr-4 border-4 border-solid border-blue-200">
             <p className="text-sm text-gray-600 mt-0">SpaceX</p>
             <p className="leading-relaxed text-lg">Enable human exploration and settlement of Mars.</p>
           </div>
@@ -175,7 +192,7 @@ export default function Home() {
 
           <p>Mission statements and vision statements and Big Hairy Audacious Goals are what the brand does. But positioning helps define what it is about a brand does that the competitors aren’t.</p>
 
-          <p>Sometimes positioning is articulated in positioning statements—one or two sentences that are curelly hard to write—and other times it’s conveyed through manifestos or slogans or memos.</p>
+          <p>Sometimes positioning is articulated in positioning statements—one or two sentences that are cruelly hard to write—and other times it’s conveyed through manifestos or slogans or memos.</p>
           
           <Accordion lead="Dig deeper into positioning">
             
@@ -216,76 +233,104 @@ export default function Home() {
             </ul>
             
           </Accordion>
-          
-          <AnchoredHeading level="4" content="Promise" />
-          
-          <div className="bg-yellow-200 rounded-md mt-4 mb-4 p-4">
-            <p className="mt-0 text-yellow-900">Look I gotta do this section still</p>
-          </div>
 
-          <Accordion lead="How to create your brand promise">
-            <p>content!</p>
-          </Accordion>
-	        
-          <p>Together, these share a common purpose of defining what the company is in itself and how it’s positioned in the broader marketplace.</p>
-
-	        <p>These rarely change, and when they do, it has to be for a really good reason, because it reflects that the company has changed in a really deep and fundamental way.</p>
-	        
-          <p>If a company is defined by a single product, pivoting to achieve product-market fit will almost always result in changes. </p>
-	        
-          <p>Note that if a company is distinct from the product (maybe it has six different products), the product itself will often be a sub-brand that can change without the company’s own brand changing all that much.</p>
-
-          <AnchoredHeading level="3" content="Brand identity" />
+          <AnchoredHeading level="3" content="2. Brand identity" />
 
           <p>Brand identity includes:</p>
 
-          <AnchoredHeading level="4" content="Values and principles" />
+          <ul>
+            <li><a href="#values">Values</a></li>
+            <li><a href="#principles">Principles</a></li>
+            <li><a href="#character-and-personality">Character and personality</a></li>
+            <li><a href="#name">Name</a></li>
+          </ul>
 
-          <div className="bg-yellow-200 rounded-md mt-4 mb-4 p-4">
-            <p className="mt-0 text-yellow-900">Look I gotta do this section still</p>
+          <p>Each facet of brand identity combines to create an inherent personification of the brand. Each informs the other (but usually values and principles come first).</p>
+
+          <p>What’s super weird and sometimes uncomfortable about brand identity is that it doesn’t include things like logos or imagery and stuff. It’s mostly abstract concepts and a bunch of stuff written down. Look at it this way: no matter what you wear, your friends and family know you’re still the same person underneath.</p>
+
+          <p>Much like brand strategy, brand identity doesn’t change all that often, and when it does, it’s always for a very good reason.</p>
+
+          <AnchoredHeading level="4" content="Values" />
+
+          <p>Values are the unchanging, inexorable values upon which a brand will never compromise. The more specific they are to the brand and the work they do, the more power they have to shape the brand identity.</p>
+
+          <p>Values are usually a word or two that summarize the theme, and a bit of extrapolation to explain what it means. Values are a way to capture expectations, mostly around actions and behaviour, both internally for the team and externally for customers.</p>
+
+          <div className="rounded-md mt-8 mb-8 p-6 -ml-6 -mr-6 border-4 border-solid border-blue-200">
+            <p className="text-sm text-gray-600 mt-0">Sourcegraph’s <a href="https://about.sourcegraph.com/company/values" target="_blank">values</a></p>
+            <p className="leading-relaxed text-lg"><strong>• High quality.</strong></p>
+            <p className="leading-relaxed text-lg"><strong>• We not I.</strong></p>
+            <p className="leading-relaxed text-lg"><strong>• Open and transparent.</strong></p>
           </div>
 
-          <Accordion lead="How to figure out your values and principles">
-            <p>content!</p>
+          <p>Values are similar to, but not exactly, principles.</p>
+
+          <Accordion lead="Dig deeper into values">
+
+          <div className="bg-yellow-200 rounded-md mt-4 p-4">
+            <p className="mt-0 text-sm text-yellow-900">Look I gotta write this still</p>
+          </div>
+            
+          </Accordion>
+
+          <AnchoredHeading level="4" content="Principles" />
+
+          <p>A brand’s principles are the brand’s point of view. While values capture expectations for actions and behaviour, principles capture a stance on the way the world is, or should be.</p>
+
+          <p>A brand with clear principles has a perspective on the world. This perspective then becomes a part of that brand’s identity, and gives its team a point of reference for making decisions.</p>
+
+          <p>When you put together a few principles in one place, it becomes a <strong>manifesto</strong>. A manifesto is a powerful tool to share what matters most all in one place.</p>
+
+          <div className="rounded-md mt-8 mb-8 p-6 -ml-6 -mr-6 border-4 border-solid border-blue-200">
+            <p className="text-sm text-gray-600 mt-0">Some of Mozilla’s <a href="https://www.mozilla.org/en-US/about/manifesto/" target="_blank">principles</a></p>
+            <p className="leading-relaxed text-lg"><strong>Principle 1:</strong><br />The internet is an integral part of modern life—a key component in education, communication, collaboration, business, entertainment and society as a whole.</p>
+            <p className="leading-relaxed text-lg"><strong>Principle 2:</strong><br />The internet is a global public resource that must remain open and accessible.</p>
+            <p className="leading-relaxed text-lg"><strong>Principles 3:</strong><br />The internet must enrich the lives of individual human beings.</p>
+            <p>Check out the <a href="https://www.mozilla.org/en-US/about/manifesto/" target="_blank">Mozilla Manifesto →</a></p>
+          </div>
+
+          <Accordion lead="Dig deeper into principles">
+            
+          <div className="bg-yellow-200 rounded-md mt-4 p-4">
+            <p className="mt-0 text-sm text-yellow-900">Look I gotta finish writing this still</p>
+          </div>
+
           </Accordion>
           
-          <AnchoredHeading level="4" content="Brand character and personality" />
+          <AnchoredHeading level="4" content="Character and personality" />
+
+          <div className="bg-yellow-200 rounded-md mt-4 p-4">
+            <p className="mt-0 text-sm text-yellow-900">Look I gotta finish writing this still</p>
+          </div>
           
-          <div className="bg-yellow-200 rounded-md mt-4 mb-4 p-4">
-            <p className="mt-0 text-yellow-900">Look I gotta do this section still</p>
+          <Accordion lead="Dig deeper into character and personality">
+          
+          <div className="bg-yellow-200 rounded-md mt-4 p-4">
+            <p className="mt-0 text-sm text-yellow-900">Look I gotta finish writing this still</p>
           </div>
 
-          <Accordion lead="How to figure out your brand character and personality">
-            <p>content!</p>
           </Accordion>
           
           <AnchoredHeading level="4" content="Name" />
-          
-          <div className="bg-yellow-200 rounded-md mt-4 mb-4 p-4">
-            <p className="mt-0 text-yellow-900">Look I gotta do this section still</p>
+
+          <div className="bg-yellow-200 rounded-md mt-4 p-4">
+            <p className="mt-0 text-sm text-yellow-900">Look I gotta write this still</p>
           </div>
-          
+ 
           <Accordion lead="Naming is real hard so read this book">
             <p>What's awesome about naming is the name can do a whole lot of work around establishing personality, almost for free.</p>
           </Accordion>
-	
-          <p>These are at a conceptual and almost visceral level.</p>
-          
-          <p>Together, these combine to create an inherent personification of the brand.</p>
-	        
-          <p>Each informs the other (but usually values come first).</p>
-          
-          <p>This is the missing link for a lot of companies because it’s very abstract.</p>
 
-          <AnchoredHeading level="3" content="Brand expression" />
+          <AnchoredHeading level="3" content="3. Brand expression" />
 
-          <p>Brand expression is where the abstract identity becomes concrete and tangible.</p>
+          <p>Brand expression is where the abstract bits of brand become concrete and tangible.</p>
 	        
-          <p>It’s a super wide area.</p>
+          <p>It’s a super wide area and the world is full of brilliant people who specialize in taking brand strategy and identity and expressing it in ways that make everyone else in the same field vaguely irritated and questioning their chosen career path.</p>
 	        
-          <p>The most relevant things for product teams include things like:</p>
+          <p>The most relevant forms of brand expression for product teams include things like:</p>
 
-          <AnchoredHeading level="4" content="Identity design" />
+          <p><strong>Identity design</strong></p>
           
           <ul>
             <li>Logo</li>
@@ -295,14 +340,14 @@ export default function Home() {
             <li>The gestalt of the thing (the “whole of perception” through the combination of all of these elements and things like how white space is used, how figure and ground relationships are used, and so on)</li>
           </ul>
 
-          <AnchoredHeading level="4" content="Copywriting" />
+          <p><strong>Copywriting</strong></p>
           
           <ul>
             <li>Terminology</li>
             <li>Voice</li>
           </ul>
           
-          <AnchoredHeading level="4" content="Interface design" />
+          <p><strong>Interface design</strong></p>
           
           <ul>
             <li>UI elements</li>
@@ -310,11 +355,11 @@ export default function Home() {
             <li>Iconography</li>
           </ul>
           
-          <AnchoredHeading level="4" content="Product design" />
+          <p><strong>Product design</strong></p>
           
           <ul>
-            <li>Features</li>
-            <li>Workflows</li>
+            <li>Features (yes, really: the better you understand your brand, the easier it is to decide what features are most in line with your brand)</li>
+            <li>Flows (also yes, really: the whole of a flow in a product draws from, and reinforces, your brand)</li>
           </ul>
           
 	        <p>Other examples of brand expression, though not always as relevant to product teams:</p>
@@ -334,21 +379,21 @@ export default function Home() {
           
           <p>It’s about:</p>
 
-          <AnchoredHeading level="4" content="Organizing all of this so people can get at it" />
+          <p><strong>Organizing all of this so people can get at it</strong></p>
           
           <ul>
-            <li>Brand guidelines that capture and share the brand strategy and identity, and provide guidance around brand expression</li>
-            <li>Asset libraries so that everyone’s using the same files and assets wherever the brand is expressed</li>
+            <li>Brand guidelines that capture and share the brand strategy and identity, and provide guidance around brand expression.</li>
+            <li>Asset libraries so that everyone’s using the same files and assets wherever the brand is expressed.</li>
           </ul>
           
-          <AnchoredHeading level="4" content="Having a plan for making changes" />
+          <p><strong>Having a plan for making changes</strong></p>
           
           <ul>
             <li>If you’re reading a novel and the character’s personality changes every chapter, they’ll feel badly written and artificial, and even untrustworthy.</li>
             <li>The higher you go in the hierarchy of strategy –&nbsp;identity – expression, the more purposeful and deliberate you have to be about making changes.</li>
           </ul>
           
-          <AnchoredHeading level="4" content="Understanding and commitment from leadership and making brand part of culture" />
+          <p><strong>Understanding and commitment from leadership and making brand part of culture</strong></p>
           
           <ul>
             <li>Leaders have to have a strong understanding of brand concepts and the company’s own brand, and take ownership of the core strategy and identity.</li>

@@ -5,13 +5,13 @@ html {
 }
 
 body {
-  font-family: "GT Walsheim", Times, sans-serif;
+  font-family: sofia-pro, Times, sans-serif;
   font-weight: 400;
 }
 
 h1 {
   @apply text-4xl font-bold text-gray-900;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -.75px;
 }
 
@@ -69,7 +69,7 @@ ul {
 }
 
 ul li {
-  @apply text-gray-800 pt-4 pl-1 ml-4;
+  @apply text-gray-800 pt-2 pl-1 ml-4;
 }
 
 ul li::marker{
@@ -103,6 +103,10 @@ blockquote p, blockquote li {
 
 .caret {
   margin-top: 3px;
+}
+
+strong {
+  font-weight: 700;
 }
 
 @tailwind components;
