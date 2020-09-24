@@ -11,12 +11,12 @@ export default function Home() {
         <link rel="stylesheet" href="https://use.typekit.net/wqn2zls.css"></link>
       </Head>
 
-      <main class="mb-24">
-        <div class="text-center pt-24 pb-16">
-          <h1 class="">What is this Brand Thing Anyway?</h1>
-          <h2 class="font-normal mt-0 text-gray-600">A primer on brand for product teams</h2>
+      <main className="mb-24">
+        <div className="text-center pt-24 pb-16">
+          <h1 className="">What is this Brand Thing Anyway?</h1>
+          <h2 className="font-normal mt-0 text-gray-600">A primer on brand for product teams</h2>
         </div>
-        <div class="w-content mx-auto">
+        <div className="w-content mx-auto">
           <div className="bg-yellow-200 rounded-md mt-4 p-4">
             <p className="mt-0 text-sm text-yellow-900">There's gonna be a story to kick this off eh?</p>
           </div>
@@ -300,9 +300,20 @@ export default function Home() {
           
           <AnchoredHeading level="4" content="Character and personality" />
 
-          <div className="bg-yellow-200 rounded-md mt-4 p-4">
-            <p className="mt-0 text-sm text-yellow-900">Look I gotta finish writing this still</p>
+          <p>When you think of a friend, a colleague, or someone in your family, you can probably find all kinds of ways to describe their personality.   Brands are the same. Brands have personality.</p>
+
+          <p>Brand character and personality is more often than not the missing link in a company’s brand platform. When we look at visual designs and logos and think about the voice we use while writing stuff for the brand, we talk about look and feel. Character and personality is what provides the basis of that look and feel that we evaluate against: the character attributes.</p>
+
+          <p>Brand character attributes are rarely shared publicly. For that reason, I'm going to make something up to give you an example.</p>
+
+          <div className="rounded-md mt-8 mb-8 p-6 -ml-6 -mr-6 border-4 border-solid border-blue-200">
+            <p className="text-sm text-gray-600 mt-0">Character attributes for a fake outdoor gear brand</p>
+            <p className="leading-relaxed text-lg">This company is <strong>steadfast</strong>, <strong>studious</strong>, <strong>rustic</strong>, and <strong>playful</strong>.</p>
           </div>
+
+          <p>Clear and explicit character attributes provide a baseline for everyone on your product team to make decisions while minimizing the subjective differences of interpretation around what is or isn’t “the brand.”</p>
+
+          <p>Much like positioning statements, you’re not going to go out and wave your character attributes in front of your customers. They’re for you, to better talk about your brand’s personality and use to create expressions of your brand that capture that personality.</p>
           
           <Accordion lead="Dig deeper into character and personality">
           
@@ -314,11 +325,21 @@ export default function Home() {
           
           <AnchoredHeading level="4" content="Name" />
 
-          <div className="bg-yellow-200 rounded-md mt-4 p-4">
-            <p className="mt-0 text-sm text-yellow-900">Look I gotta write this still</p>
+          <p>A product or company’s name does a whole lot of work in defining the brand identity. It’s for a very simple reason: a word is simply a symbol that represents a lot more than its literal definition.</p>
+
+          <p>The process of “branding” is all about creating a certain perception for your product. A good name can shortcut the process, because if a word is a symbol that represents a lot more than its literal definition, then using that word for your name means your identity comes batteries-included with all that word represents.</p>
+
+          <p>Consider these names and think about how much work each name does from its own symbolism:</p>
+
+          <div className="rounded-md mt-8 mb-8 p-6 -ml-6 -mr-6 border-4 border-solid border-blue-200">
+            <ul className="mt-0">
+              <li><strong>Tesla</strong> (electric cars)</li>
+              <li><strong>Hey</strong> (email reimagined)</li>
+              <li><strong>A Hundred Monkeys</strong> (A consultancy that helps you name companies and products)</li>
+            </ul>
           </div>
  
-          <Accordion lead="Naming is real hard so read this book">
+          <Accordion lead="Naming is real hard">
             <p>What's awesome about naming is the name can do a whole lot of work around establishing personality, almost for free.</p>
           </Accordion>
 
