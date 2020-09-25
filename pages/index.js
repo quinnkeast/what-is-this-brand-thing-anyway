@@ -9,6 +9,7 @@ export default function Home() {
         <title>What is this Brand Thing Anyway?</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://use.typekit.net/wqn2zls.css"></link>
+        <script src="https://cdn.usefathom.com/script.js" site={process.env.FATHOM} defer></script>
       </Head>
 
       <main className="mb-24">
