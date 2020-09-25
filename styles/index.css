@@ -1,7 +1,13 @@
 @tailwind base;
 
 html {
-  font-size: 20px;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) { 
+  html {
+    font-size: 20px;
+  }
 }
 
 body {
@@ -16,8 +22,34 @@ h1 {
 }
 
 h2 {
-  @apply text-2xl font-bold text-gray-900 mt-16;
+  @apply text-2xl font-bold text-gray-900 mt-6;
   letter-spacing: -.5px;
+}
+
+h3 {
+  @apply text-xl font-bold text-gray-900 mt-6;
+}
+
+h4 {
+  @apply text-lg font-bold text-gray-900 mt-6;
+}
+
+h5 {
+  @apply text-base font-bold text-gray-900 mt-4;
+}
+
+@media (min-width: 768px) { 
+  h2 {
+    @apply mt-16;
+  }
+
+  h3 {
+    @apply mt-16;
+  }
+
+  h4 {
+    @apply mt-16;
+  }
 }
 
 .anchor {
@@ -25,26 +57,14 @@ h2 {
 }
 
 .anchor:before {
-  @apply text-base font-normal text-gray-100;
+  @apply font-normal text-blue-200;
   content: "#";
   position: absolute;
-  left: -1.5rem;
+  left: -2rem;
 }
 
 .anchor:hover:before {
   @apply text-blue-600;
-}
-
-h3 {
-  @apply text-xl font-bold text-gray-900 mt-12;
-}
-
-h4 {
-  @apply text-lg font-bold text-gray-900 mt-8;
-}
-
-h5 {
-  @apply text-base font-bold text-gray-900 mt-4;
 }
 
 p {
@@ -107,6 +127,34 @@ blockquote p, blockquote li {
 
 strong {
   font-weight: 700;
+}
+
+.sidebar {
+  @apply list-none;
+}
+
+.sidebar a {
+  @apply text-gray-600;
+}
+
+.sidebar a:hover {
+  @apply text-blue-500;
+}
+
+.sidebar li {
+  @apply text-xs pt-2 pl-1 ml-2 leading-tight;
+}
+
+.sidebar > li {
+  @apply pl-0 ml-0;
+}
+
+.sidebar ul {
+  @apply list-none mt-2;
+}
+
+.sidebar ul ul {
+  @apply list-none;
 }
 
 @tailwind components;

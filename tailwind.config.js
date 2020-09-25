@@ -6,6 +6,9 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        'body': '1fr 34rem 1fr'
+      },
       spacing: {
         'content': '34rem'
       }

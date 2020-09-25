@@ -29,7 +29,7 @@ class Accordion extends React.Component {
           }
         </span>
       </a>
-      <div className={`${this.state.visible ? "visible" : "hidden"} mt-8 pl-6 pr-6 pb-6 pt-2 -ml-6 -mr-6 bg-gray-100 rounded-md`}>
+      <div className={`${this.state.visible ? "visible" : "hidden"} mt-8 pl-6 pr-6 pb-6 pt-2 md:-ml-6 md:-mr-6 bg-gray-100 rounded-md`}>
         {this.props.children}
       </div>
     </div>;
