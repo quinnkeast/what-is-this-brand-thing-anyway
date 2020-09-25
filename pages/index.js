@@ -17,8 +17,8 @@ export default function Home() {
           <h1 className="">What is this Brand Thing Anyway?</h1>
           <h2 className="font-normal mt-0 text-gray-600">A primer on brand for product teams</h2>
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-body md:gap-24">
-          <div className="col-span-1"></div>
+        <div className="grid grid-cols-1 md:grid-cols-body md:gap-24">
+          <div className="lg:col-span-1"></div>
           <div className="col-span-1 pt-4 md:pt-16">
             <div className="pl-2 pr-2 md:pl-0 md:pr-0">
               <a name="introduction" href="#introduction" rel="nofollow" aria-hidden="true" title="introduction" tabIndex="-1"></a>
