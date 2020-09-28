@@ -126,12 +126,7 @@ export default function Home() {
 
               <AnchoredHeading level="3" content="Brand" />
 
-              <p>
-                The first thing to know: brand isn’t a tangible thing. You can’t
-                “do the brand.”
-              </p>
-
-              <p>Brand is a concept. Branding is a process.</p>
+              <p>Brand isn’t a tangible thing. You can’t “do the brand.”</p>
 
               <p>
                 Brand is how others perceive your product or company. It’s
@@ -140,16 +135,24 @@ export default function Home() {
                 company, their interactions with you, what they hear about you
                 in the media, how others describe you, and how they feel when
                 you magically solve that thing they’ve been wasting ten hours on
-                every week. Then it’s mingled with their own experiences and
-                beliefs and worldview and that outcome is your brand, as far as
-                that person is concerned.
+                every week.
               </p>
-
+              <p>
+                Then it’s mingled with their own experiences and beliefs and
+                worldview and that outcome is your brand, as far as that person
+                is concerned.
+              </p>
               <p>
                 While we can’t “do the brand,” we <strong>can</strong>{" "}
                 articulate what we want the brand to be. This is the{" "}
-                <strong>brand platform</strong>, and “branding” is the process
-                of, among other things, creating the brand platform.
+                <strong>brand platform</strong>.
+              </p>
+
+              <AnchoredHeading level="3" content="Branding" />
+
+              <p>
+                If brand is a concept, branding is a process. “Branding” is the
+                process of, among other things, creating the brand platform.
               </p>
 
               <p>
