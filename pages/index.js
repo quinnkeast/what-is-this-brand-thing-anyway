@@ -56,9 +56,9 @@ export default function Home() {
               <p>
                 That leaves us with many different interpretations of what brand
                 is, and so we approach conversations from different vantage
-                points involving a lot of subjective opinion, which often leaves
-                us vaguely confused and dissatisfied when the conversation is
-                over.
+                points involving a lot of subjective opinions, which often
+                leaves us vaguely confused and dissatisfied when the
+                conversation is over.
               </p>
 
               <p>
@@ -127,9 +127,11 @@ export default function Home() {
               <AnchoredHeading level="3" content="Brand" />
 
               <p>
-                The first thing to know: brand isn’t a Thing. You can’t “do the
-                brand.”
+                The first thing to know: brand isn’t a tangible thing. You can’t
+                “do the brand.”
               </p>
+
+              <p>Brand is a concept. Branding is a process.</p>
 
               <p>
                 Brand is how others perceive your product or company. It’s
@@ -146,12 +148,8 @@ export default function Home() {
               <p>
                 While we can’t “do the brand,” we <strong>can</strong>{" "}
                 articulate what we want the brand to be. This is the{" "}
-                <strong>brand platform</strong>.
-              </p>
-
-              <p>
-                “Branding” is the act of creating the brand platform and doing
-                research to find out how people perceive it.
+                <strong>brand platform</strong>, and “branding” is the process
+                of, among other things, creating the brand platform.
               </p>
 
               <p>
@@ -410,8 +408,9 @@ export default function Home() {
               <AnchoredHeading level="4" content="Positioning" />
 
               <p>
-                Positioning is how your customers think about your brand in
-                relation to your competitors and the alternatives.
+                Positioning is how your customers think about your brand (and
+                how you want them to think about your brand) in relation to your
+                competitors and the alternatives.
               </p>
 
               <p>
@@ -542,11 +541,11 @@ export default function Home() {
               </p>
 
               <p>
-                What’s super weird and sometimes uncomfortable about brand
-                identity is that it doesn’t include things like logos or imagery
-                and stuff. It’s mostly abstract concepts and a bunch of stuff
-                written down. Look at it this way: no matter what you wear, your
-                friends and family know you’re still the same person underneath.
+                What’s sometimes weird and uncomfortable about brand identity is
+                that it doesn’t include things like logos or visuals. It’s
+                mostly abstract concepts and a bunch of stuff written down. Look
+                at it this way: no matter what you wear, your friends and family
+                know you’re still the same person underneath.
               </p>
 
               <p>
@@ -557,10 +556,10 @@ export default function Home() {
               <AnchoredHeading level="4" content="Values" />
 
               <p>
-                Values are the unchanging, inexorable values upon which a brand
-                will never compromise. The more specific they are to the brand
-                and the work they do, the more power they have to shape the
-                brand identity.
+                Values are the unchanging, inexorable rules or beliefs upon
+                which a brand will never compromise. The more specific they are
+                to the brand and the work they do, the more power they have to
+                shape the brand identity.
               </p>
 
               <p>
@@ -611,8 +610,9 @@ export default function Home() {
 
               <p>
                 A brand’s principles are the brand’s point of view. While values
-                capture expectations for actions and behaviour, principles
-                capture a stance on the way the world is, or should be.
+                capture <strong>internal</strong> expectations for actions and
+                behaviour, principles capture a stance on the way the world is,
+                or should be.
               </p>
 
               <p>

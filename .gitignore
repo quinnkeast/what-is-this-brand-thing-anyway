@@ -1,4 +1,5 @@
 // .gitnignore
+.nova
 .DS_Store
 # next.js build output
 .next
