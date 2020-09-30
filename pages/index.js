@@ -43,7 +43,7 @@ export default function Home() {
                 “It just doesn’t feel like <em>us</em>.”
               </p>
 
-              <p>Sound familliar?</p>
+              <p>Sound familiar?</p>
 
               <p>
                 Every member of a startup or product team interacts with and shapes the product’s brand. And yet, while many of us have an instinctive understanding of the whole “Brand Thing”, we don’t have a full conceptual model or the language to anchor that understanding around.
