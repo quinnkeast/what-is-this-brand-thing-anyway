@@ -46,16 +46,12 @@ export default function Home() {
               <p>Sound familliar?</p>
 
               <p>
-                Every member of a startup or product team interacts with and
-                shapes the product’s brand every day. And yet, while many of us
-                have an instinctive understanding of the{" "}
-                <strong>Brand Thing</strong>, we don’t have a full conceptual
-                model or the language to anchor that understanding around.
+                Every member of a startup or product team interacts with and shapes the product’s brand. And yet, while many of us have an instinctive understanding of the “brand”, we don’t have a full conceptual model or the language to anchor that understanding around.
               </p>
 
               <p>
                 That leaves us with many different interpretations of what brand
-                is, and so we approach conversations from different vantage
+                is. Then, we approach conversations from different vantage
                 points involving a lot of subjective opinions, which often
                 leaves us vaguely confused and dissatisfied when the
                 conversation is over.
@@ -70,7 +66,7 @@ export default function Home() {
 
               <p>
                 This is a primer for startups and product teams that want to get
-                a better understanding of the Brand Thing.
+                a better understanding of the whole Brand Thing.
               </p>
 
               <p>This primer will make it easier to:</p>
@@ -272,6 +268,18 @@ export default function Home() {
                   globally.
                 </p>
               </div>
+              
+              <div className="bg-gray-100 rounded-md mt-8 mb-4 p-6 text-gray-800">
+                <p className="mt-0 text-sm">
+                  <strong>Brand vision vs. product vision</strong>
+                </p>
+                <p className="text-sm">
+                  A brand vision reflects a broad aspirational view of the future shared with the company and its customers. A product vision is a narrower, more actionable vision meant to align the product team.
+                </p>
+                <p className="text-sm">
+                  While the brand vision guides the company, the product vision guides the product team.
+                </p>
+              </div>
 
               <Accordion lead="Dig deeper into vision and mission statements">
                 <h5>Writing vision and mission statements</h5>
@@ -323,7 +331,7 @@ export default function Home() {
                   </li>
                 </ul>
               </Accordion>
-
+              
               <AnchoredHeading level="4" content="Big Hairy Audacious Goal" />
 
               <p>
