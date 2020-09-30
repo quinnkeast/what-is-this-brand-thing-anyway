@@ -46,7 +46,7 @@ export default function Home() {
               <p>Sound familliar?</p>
 
               <p>
-                Every member of a startup or product team interacts with and shapes the product’s brand. And yet, while many of us have an instinctive understanding of the “brand”, we don’t have a full conceptual model or the language to anchor that understanding around.
+                Every member of a startup or product team interacts with and shapes the product’s brand. And yet, while many of us have an instinctive understanding of the whole “brand thing”, we don’t have a full conceptual model or the language to anchor that understanding around.
               </p>
 
               <p>
