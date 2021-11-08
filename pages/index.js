@@ -15,7 +15,7 @@ export default function Home() {
         <meta property="og:title" content="What is this Brand Thing Anyway?" key="title" />
         <meta property="og:url" content="https://thebrandthing.quinnkeast.com/" key="url" />
         <meta property="og:type" content="website" key="type" />
-        <meta property="og:image" content="/assets/brand-thing-preview.png" key="image" />
+        <meta property="og:image" content="/brand-thing-preview.png" key="image" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:creator" content="@quinnkeast" />
         <meta property="twitter:title" content="What is this Brand Thing Anyway?" key="twitter-title" />
@@ -26,7 +26,7 @@ export default function Home() {
         />
         <meta
           property="twitter:image"
-          content="/assets/brand-thing-preview.png"
+          content="/brand-thing-preview.png"
           key="twitter-image"
         />
         <link rel="icon" href="/favicon.ico" />
