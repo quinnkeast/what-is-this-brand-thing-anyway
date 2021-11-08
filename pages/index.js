@@ -15,7 +15,7 @@ export default function Home() {
         <meta property="og:title" content="What is this Brand Thing Anyway?" key="title" />
         <meta property="og:url" content="https://thebrandthing.quinnkeast.com/" key="url" />
         <meta property="og:type" content="website" key="type" />
-        <meta property="og:image" content="https://quinnkeast.com/assets/brand-thing-preview.png" key="image" />
+        <meta property="og:image" content="https://thebrandthing.quinnkeast.com/assets/brand-thing-preview.png" key="image" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:creator" content="@quinnkeast" />
         <meta property="twitter:title" content="What is this Brand Thing Anyway?" key="twitter-title" />
@@ -26,7 +26,7 @@ export default function Home() {
         />
         <meta
           property="twitter:image"
-          content="https://quinnkeast.com/assets/brand-thing-preview.png"
+          content="https://thebrandthing.quinnkeast.com/assets/brand-thing-preview.png"
           key="twitter-image"
         />
         <link rel="icon" href="/favicon.ico" />
@@ -629,6 +629,7 @@ export default function Home() {
                 <h5>Defining your values</h5>
 
                 <p className="text-sm">I gotta write this still.</p>
+                <p className="text-sm">Would this be valuable to you right now? <a href="https://quinnkeast.com/contact">Send me an email and let me know</a>.</p>
 
                 <h5>Resources</h5>
 
@@ -703,6 +704,7 @@ export default function Home() {
                 <h5>Defining your principles</h5>
 
                 <p className="text-sm">I gotta write this still.</p>
+                <p className="text-sm">Would this be valuable to you right now? <a href="https://quinnkeast.com/contact">Send me an email and let me know</a>.</p>
 
                 <h5>Resources</h5>
 
@@ -766,6 +768,7 @@ export default function Home() {
                 <h5>Defining your character attributes</h5>
 
                 <p className="text-sm">I gotta write this still.</p>
+                <p className="text-sm">Would this be valuable to you right now? <a href="https://quinnkeast.com/contact">Send me an email and let me know</a>.</p>
 
                 <h5>Resources</h5>
 
@@ -818,6 +821,7 @@ export default function Home() {
                 <h5>Coming up with a good name</h5>
 
                 <p className="text-sm">I gotta write this still.</p>
+                <p className="text-sm">Would this be valuable to you right now? <a href="https://quinnkeast.com/contact">Send me an email and let me know</a>.</p>
 
                 <h5>Resources</h5>
 
