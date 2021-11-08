@@ -7,6 +7,28 @@ export default function Home() {
     <div className="">
       <Head>
         <title>What is this Brand Thing Anyway?</title>
+        <meta
+          property="og:description"
+          content="A primer on brand for product teams"
+          key="description"
+        />
+        <meta property="og:title" content="What is this Brand Thing Anyway?" key="title" />
+        <meta property="og:url" content="https://thebrandthing.quinnkeast.com/" key="url" />
+        <meta property="og:type" content="website" key="type" />
+        <meta property="og:image" content="/assets/brand-thing-preview.png" key="image" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:creator" content="@quinnkeast" />
+        <meta property="twitter:title" content="What is this Brand Thing Anyway?" key="twitter-title" />
+        <meta
+          property="twitter:description"
+          content="A primer on brand for product teams"
+          key="twitter-description"
+        />
+        <meta
+          property="twitter:image"
+          content="/assets/brand-thing-preview.png"
+          key="twitter-image"
+        />
         <link rel="icon" href="/favicon.ico" />
         <link
           rel="stylesheet"
