@@ -9,24 +9,24 @@ export default function Home() {
         <title>What is this Brand Thing Anyway?</title>
         <meta
           property="og:description"
-          content="A primer on brand for product teams"
+          content="A primer on brand for product teams who want to learn more about the whole Brand Thing: brand strategy, brand identity, and brand expression."
           key="description"
         />
         <meta property="og:title" content="What is this Brand Thing Anyway?" key="title" />
         <meta property="og:url" content="https://thebrandthing.quinnkeast.com/" key="url" />
         <meta property="og:type" content="website" key="type" />
-        <meta property="og:image" content="/brand-thing-preview.png" key="image" />
+        <meta property="og:image" content="https://quinnkeast.com/brand-thing-preview.png" key="image" />
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:creator" content="@quinnkeast" />
         <meta property="twitter:title" content="What is this Brand Thing Anyway?" key="twitter-title" />
         <meta
           property="twitter:description"
-          content="A primer on brand for product teams"
+          content="A primer on brand for product teams who want to learn more about the whole Brand Thing: brand strategy, brand identity, and brand expression."
           key="twitter-description"
         />
         <meta
           property="twitter:image"
-          content="/brand-thing-preview.png"
+          content="https://quinnkeast.com/brand-thing-preview.png"
           key="twitter-image"
         />
         <link rel="icon" href="/favicon.ico" />
