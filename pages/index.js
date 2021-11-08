@@ -629,7 +629,7 @@ export default function Home() {
                 <h5>Defining your values</h5>
 
                 <p className="text-sm">I gotta write this still.</p>
-                <p className="text-sm">Would this be valuable to you right now? Send me an email at <a href="mailto:hello@quinnkeast.com">hello@quinnkeast.com</a> and let me know</a>.</p>
+                <p className="text-sm">Would this be valuable to you right now? Send me an email at <a href="mailto:hello@quinnkeast.com">hello@quinnkeast.com</a> and let me know.</p>
 
                 <h5>Resources</h5>
 
@@ -704,7 +704,7 @@ export default function Home() {
                 <h5>Defining your principles</h5>
 
                 <p className="text-sm">I gotta write this still.</p>
-                <p className="text-sm">Would this be valuable to you right now? Send me an email at <a href="mailto:hello@quinnkeast.com">hello@quinnkeast.com</a> and let me know</a>.</p>
+                <p className="text-sm">Would this be valuable to you right now? Send me an email at <a href="mailto:hello@quinnkeast.com">hello@quinnkeast.com</a> and let me know.</p>
 
                 <h5>Resources</h5>
 
@@ -768,7 +768,7 @@ export default function Home() {
                 <h5>Defining your character attributes</h5>
 
                 <p className="text-sm">I gotta write this still.</p>
-                <p className="text-sm">Would this be valuable to you right now? Send me an email at <a href="mailto:hello@quinnkeast.com">hello@quinnkeast.com</a> and let me know</a>.</p>
+                <p className="text-sm">Would this be valuable to you right now? Send me an email at <a href="mailto:hello@quinnkeast.com">hello@quinnkeast.com</a> and let me know.</p>
 
                 <h5>Resources</h5>
 
@@ -821,7 +821,7 @@ export default function Home() {
                 <h5>Coming up with a good name</h5>
 
                 <p className="text-sm">I gotta write this still.</p>
-                <p className="text-sm">Would this be valuable to you right now? Send me an email at <a href="mailto:hello@quinnkeast.com">hello@quinnkeast.com</a> and let me know</a>.</p>
+                <p className="text-sm">Would this be valuable to you right now? Send me an email at <a href="mailto:hello@quinnkeast.com">hello@quinnkeast.com</a> and let me know.</p>
 
                 <h5>Resources</h5>
 
